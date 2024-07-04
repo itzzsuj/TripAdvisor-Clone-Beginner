@@ -384,3 +384,35 @@ body{
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
+.footer{
+    background-color:antiquewhite;
+    padding: 30px;
+}
+.footer__one{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer__one__s1 p,.footer__one__s2 p{ 
+    padding: 3px;
+    font-weight: 300;
+
+}
+.footer__two{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.footer__two img{
+    width: 2%;
+}
+.footer__three{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
