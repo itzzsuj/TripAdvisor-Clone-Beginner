@@ -357,4 +357,30 @@ body{
     border-radius: 20px;
     padding: 2%;
 }
-
+.trending{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.trending__navbar{
+    display: flex;
+}
+.trending__navbar p:hover{
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.tredning__column p{
+    font-weight: 200;
+    font-size: 12px;
+}
+.trending__content{
+    display: flex;
+    justify-content: space-between
+}
+.trending__content p:hover{
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
