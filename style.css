@@ -437,7 +437,7 @@ body{
     .section-3{
         flex-wrap: wrap;
     }
-    .container{
+    .container__card{
         flex-basis: 40%;
     }
     .navbar__s2{
