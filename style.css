@@ -189,6 +189,7 @@ body{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 .container__card{
     flex-grow: 1;
@@ -230,6 +231,7 @@ body{
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    flex-wrap: wrap;
 
 }
 .explore__cont__card{
