@@ -57,6 +57,7 @@ body{
     border-radius: 20px;
     font-family:"Roboto Slab", serif; 
 }
+
 .section-2 h1{
     text-align: center;
     font-size: 50px;
@@ -114,13 +115,14 @@ body{
     width: 80%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 600px;
+    height: 80%;
 
 }
 .section-3{
     display: flex;
     justify-content: center;
     position: relative;
+    margin-top: 5%;
 }
 .section-3__content{
     position: absolute;
@@ -128,7 +130,8 @@ body{
     left: 15%;
     color: white;
     background-color: rgba(245, 39, 39, 0.5);
-    padding: 20px;
+    width: 50%;
+    padding: 2%;
     border-radius: 20px;
 }
 .section-3__content button{
@@ -167,29 +170,31 @@ body{
 .section-5{
     display: flex;
     justify-content: center;
+    margin-top: 2%;
 }
 
 
 .things{
     margin-left: 10%;
     margin-right: 10%;
-
-
+    margin-top: 2%;
 
 }
 
 .container__card img{
     width: 100%;
-    height: 75%;
+    height: 50%;
     border-radius: 20px;
 }
 
 .container{
     display: flex;
-}
-.container__card{
     flex-grow: 1;
     flex-basis: 20%;
+}
+.container__card{
+    /* flex-grow: 1;
+    flex-basis: 20%; */
     margin: 10px;
     position: relative;
 }
@@ -205,14 +210,17 @@ body{
 .tour{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 2%;
 }
 .explore{
     background-color: blanchedalmond;
+    width: 100%;
 }
 .explore h2{
     /* margin-left: 10%; */
     padding-top: 2%;
     padding-left:10% ;
+    margin-top: 2%;
 
 }
 .explore__cont img{
@@ -358,7 +366,7 @@ body{
     padding: 2%;
 }
 .trending{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -415,4 +423,39 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 
+}
+/* ADDING RESPONSIVENESS TO THE WEBPAGE CREATED */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .section-2{
+        display: none;
+    }
+    .section-3{
+        flex-wrap: wrap;
+    }
+    .container{
+        flex-basis: 40%;
+    }
+    .navbar__s2{
+        display: none;
+    }
+    .container__card h2{
+        font-size: 10px;
+        font-weight: 200;
+
+    }
+    .rental__content p{
+        font-weight: 200;
+        font-size: 14px;
+
+    }
+    .image{
+        width: 30%;
+    }
 }
