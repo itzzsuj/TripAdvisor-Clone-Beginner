@@ -334,3 +334,27 @@ body{
 .rental__container{
     position: relative;
 }
+.awards{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image .image2{
+    border-radius: 50%;
+    width: 200%;
+}
+
+
+.content{
+    padding: 5%;
+    /* width: 200%; */
+}
+.content button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+}
+
